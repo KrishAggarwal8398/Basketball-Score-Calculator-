@@ -1,0 +1,50 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+}
+
+.score{
+    background-color: black;
+    color: #F94F6D;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 10px 0 50px 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: wheat;
+    padding: 3px 6px;
+    margin: 0 5px 5px 5px;
+    width: 60px;
+    border: 2px solid #F94F6D;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.heading{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #2224248d;
+}
+
+#btn-reset{
+    padding: 5px;
+    margin: auto 5px;
+    border: 2px solid #F94F6D;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
